@@ -1,0 +1,13 @@
+to launch to heroku
+--
+
+1) heroku create [name of the app]
+2) go to package.json, under script 
+
+"scripts": {
+    "start" : "node src/app.js"
+},
+
+3) go to main application with epxress, include 
+
+const port = process.env.PORT || 3000 
