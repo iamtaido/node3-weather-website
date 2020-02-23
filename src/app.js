@@ -6,6 +6,7 @@ const forcast = require('./../utils/weathercode.js')
 
 //generate express application
 const app = express() 
+const port = process.env.PORT || 3000 //to connect to heroku
 
 //set up handlebars (used for dynamic pages)
 app.set('view engine', 'hbs')
@@ -96,7 +97,7 @@ app.get('*', (req, res) => {
 })
 
 //starting the server up
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("server is up on port 3000.")
 })
 
