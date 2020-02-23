@@ -1,0 +1,5 @@
+this is the handlebar for express link
+
+https://www.npmjs.com/package/hbs
+
+> handlebar files MUST MUST be in a folder called "views" and that folder MUST be in the root project.... in our situation web-server is the root project 

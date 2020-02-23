@@ -1,0 +1,40 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a{
+    text-transform: capitalize;
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+h1{
+    margin-bottom: 16px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
