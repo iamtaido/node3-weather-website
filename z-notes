@@ -11,3 +11,13 @@ to launch to heroku
 3) go to main application with epxress, include 
 
 const port = process.env.PORT || 3000 
+
+4)
+
+TO PUSH TO HEROKU, must push to git first
+
+>git push
+
+then to push to heroku
+
+> git push heroku master

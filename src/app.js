@@ -32,6 +32,15 @@ app.get('', (req, res) => {
     })
 })
 
+app.get('/somedata', (req, res) => {
+    res.send({
+        name: "alex",
+        age: "17",
+        gender: "male",
+        hobby: "coding"
+    })
+})
+
 app.get('/about', (req , res) => {
     res.render('about.hbs', {
         name: "LUFFY D MONKEY",
@@ -51,9 +60,6 @@ app.get('/help/*', (req, res) => {
     })
 })
 
-// geoCode("lilburn", (err, res) => {
-//     console.log(err, res)
-// })
 
 app.get('/weather', (req, res) => {
 
